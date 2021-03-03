@@ -13,7 +13,7 @@ app.get('/pet', function(req, 응답){
 
     
 app.get('/beauty', function(req, 응답){
-    응답.send('뷰티 용품 쇼핑할 수 있는 페이지 입니다.');
+    응답.send('뷰티 용품 쇼핑할 수 있는 페이지 입니다. <변경2>');
 });
 
 app.get('/', function(req, res){
