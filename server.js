@@ -29,12 +29,13 @@ app.get('/pet', function(요청, 응답){
 
     
 app.get('/beauty', function(req, 응답){
-    응답.send('뷰티 용품 쇼핑할 수 있는 페이지 입니다.');
+    응답.send('뷰티 용품 쇼핑할 수 있는 페이지 입니다. <변경2>');
 });
 
 app.get('/', function(req, res){
     res.sendFile(__dirname + '/index.html');
 });
+<<<<<<< HEAD
 
 app.get('/write', function(req, res){
     res.sendFile(__dirname + '/write.html');
@@ -75,3 +76,5 @@ app.delete('/delete', function(요청,응답){
         console.log('삭제완료');
     })
 })
+=======
+>>>>>>> f0dc39f08521a890b30cafc088507c670747f93c
