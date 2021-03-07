@@ -41,6 +41,10 @@ app.get('/beauty', function(req, 응답){
 app.get('/', function(req, res){
     res.render('index.ejs');
 });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 195c5141db78805d83ff95be5c121e41e5e5e579
 
 app.get('/write', function(req, res){
     res.render('write.ejs');
@@ -83,6 +87,7 @@ app.delete('/delete', function(요청,응답){
         응답.status(200).send({ message : '성공했습니다.' })
     })
 })
+<<<<<<< HEAD
 
 
 app.get('/detail/:id', function(요청,응답){
@@ -173,3 +178,7 @@ passport.use(new LocalStrategy({
   });
 
  app.use('/', require('./routes/shop.js'));
+=======
+=======
+>>>>>>> f0dc39f08521a890b30cafc088507c670747f93c
+>>>>>>> 195c5141db78805d83ff95be5c121e41e5e5e579
